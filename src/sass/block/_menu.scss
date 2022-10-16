@@ -1,0 +1,40 @@
+.menu{
+    padding: 20px;
+    background-color: #121415;
+   
+    &__ithems{
+        display: flex;
+        align-items: center;
+        &__logo{
+            width: 54px;
+            height: 59px;
+            img{
+                width: 100%;
+            }
+        }
+
+        &__links{
+        min-width: 500px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+            li{
+                a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+
+                }
+            }
+        }
+    }
+    &__instr{
+        &__search{
+            color:#fff;
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+}
+
+
